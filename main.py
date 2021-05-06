@@ -9,7 +9,7 @@ class Application(tk.Frame):
         # Windowの画面サイズを設定する。
         self.master.geometry("300x200")
 
-        # Window内にframeを作成する。
+        # Window内にFrameを作成する。
         tk.Frame(self.master)
 
         # ラベル1Widgetを作成する。

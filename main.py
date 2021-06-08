@@ -7,18 +7,23 @@ class Application(tk.Frame):
         super().__init__(master)
 
         # Windowの画面サイズを設定する。
+        # geometryについて : https://kuroro.blog/python/rozH3S2CYE0a0nB3s2QL/
         self.master.geometry("300x200")
 
         # Window内にFrameを作成する。
+        # Frameについて : https://kuroro.blog/python/P20XOidA5nh583fYRvxf/
         tk.Frame(self.master)
 
         # ラベル1Widgetを作成する。
+        # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label1 = tk.Label(text="1",
                           width=30, height=15, bg="orchid4")
         # ラベル2Widgetを作成する。
+        # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label2 = tk.Label(text="2",
                           width=30, height=15, bg="dark turquoise")
         # ラベル3Widgetを作成する。
+        # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label3 = tk.Label(text="3",
                           width=30, height=15, bg="MidnightBlue")
 
@@ -32,4 +37,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = Application(master=root)
     # Windowをループさせて、継続的にWindow表示させる。
+    # mainloopについて : https://kuroro.blog/python/DmJdUb50oAhmBteRa4fi/
     app.mainloop()

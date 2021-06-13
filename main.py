@@ -47,7 +47,7 @@ class Application(tk.Frame):
         # frame Widget(Frame)を親要素とした場合に、label3 Widgetをどのように配置するのか?
         label3.pack()
 
-
+# Tkinter初学者参考 : https://docs.python.org/ja/3/library/tkinter.html#a-simple-hello-world-program
 if __name__ == "__main__":
     root = tk.Tk()
     app = Application(master=root)

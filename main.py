@@ -20,7 +20,7 @@ class Application(tk.Frame):
         # width : 幅設定
         # height : 高さ設定
         # bg : 背景色設定
-        # 色の設定を変更する場合 : http://www.tcl.tk/man/tcl/TkCmd/colors.htm
+        # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label1 = tk.Label(frame, text="label1", width=10, height=10, bg="red")
         # frame Widget(Frame)を親要素として、label Widgetを作成する。
@@ -28,7 +28,7 @@ class Application(tk.Frame):
         # width : 幅設定
         # height : 高さ設定
         # bg : 背景色設定
-        # 色の設定を変更する場合 : http://www.tcl.tk/man/tcl/TkCmd/colors.htm
+        # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label2 = tk.Label(frame, text="label2", width=10, height=10, bg="green")
         # frame Widget(Frame)を親要素として、label Widgetを作成する。
@@ -36,7 +36,7 @@ class Application(tk.Frame):
         # width : 幅設定
         # height : 高さ設定
         # bg : 背景色設定
-        # 色の設定を変更する場合 : http://www.tcl.tk/man/tcl/TkCmd/colors.htm
+        # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label3 = tk.Label(frame, text="label3", width=10, height=10, bg="blue")
 
